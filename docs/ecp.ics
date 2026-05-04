@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ECP Calendar Sync//pittecp.org//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Explorers Club of Pittsburgh
+X-WR-CALDESC:Events from the Explorers Club of Pittsburgh - run the GitHub Action to populate
+END:VCALENDAR

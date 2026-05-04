@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECP Calendar Sync</title>
+  <style>
+    body { font-family: sans-serif; max-width: 640px; margin: 60px auto; padding: 0 20px; color: #333; }
+    h1 { color: #2a6020; }
+    code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; word-break: break-all; }
+    .box { background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin: 20px 0; }
+    a { color: #2a6020; }
+  </style>
+</head>
+<body>
+  <h1>🏔️ ECP Calendar Sync</h1>
+  <p>This page serves an auto-updated iCal feed of <a href="https://pittecp.org/calendar">Explorers Club of Pittsburgh</a> events.</p>
+  <p>The calendar is refreshed automatically every day via GitHub Actions.</p>
+
+  <div class="box">
+    <strong>Subscribe URL (copy this into Google Calendar):</strong><br><br>
+    <code id="ics-url"></code>
+    <script>
+      // Fill in the actual URL dynamically
+      const base = window.location.origin + window.location.pathname.replace(/\/?$/, '/');
+      document.getElementById('ics-url').textContent = base + 'ecp.ics';
+    </script>
+  </div>
+
+  <h2>How to subscribe in Google Calendar</h2>
+  <ol>
+    <li>Copy the Subscribe URL above</li>
+    <li>Open <a href="https://calendar.google.com" target="_blank">Google Calendar</a> on desktop</li>
+    <li>Click the <strong>+</strong> next to "Other calendars" in the left sidebar</li>
+    <li>Choose <strong>"From URL"</strong></li>
+    <li>Paste the Subscribe URL and click <strong>Add calendar</strong></li>
+  </ol>
+  <p><em>Note: Google Calendar checks subscribed calendars for updates roughly every 12–24 hours.</em></p>
+
+  <p><a href="ecp.ics">⬇️ Download ecp.ics</a></p>
+</body>
+</html>
