@@ -1,0 +1,51 @@
+name: Update ECP Calendar
+
+on:
+  schedule:
+    # Runs every day at 6:00 AM UTC (2 AM Eastern)
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper
+        run: |
+          python scrape.py > docs/ecp.ics
+          echo "Generated $(grep -c 'BEGIN:VEVENT' docs/ecp.ics) events"
+
+      - name: Check if calendar changed
+        id: diff
+        run: |
+          git diff --quiet docs/ecp.ics && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated calendar
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ecp.ics
+          git commit -m "Update ECP calendar [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      - name: No changes
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "Calendar unchanged, nothing to commit."
