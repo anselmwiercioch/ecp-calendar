@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:5764705@pittecp.org
-DTSTAMP:20260629T105919Z
+DTSTAMP:20260630T093507Z
 SUMMARY:Explorers Club of Pittsburgh - ECP General Meeting
 DTSTART;TZID=America/New_York:20261112T193000
 DTEND;TZID=America/New_York:20261112T213000
@@ -34,7 +34,7 @@ URL:https://pittecp.org/event-5764705
 END:VEVENT
 BEGIN:VEVENT
 UID:6727353@pittecp.org
-DTSTAMP:20260629T105919Z
+DTSTAMP:20260630T093507Z
 SUMMARY:Explorers Club of Pittsburgh - Free Yoga in Bakery Square - Every S
  aturday!
 DTSTART;TZID=America/New_York:20260613T103000
@@ -44,7 +44,7 @@ URL:https://pittecp.org/event-6727353
 END:VEVENT
 BEGIN:VEVENT
 UID:6719374@pittecp.org
-DTSTAMP:20260629T105920Z
+DTSTAMP:20260630T093507Z
 SUMMARY:Explorers Club of Pittsburgh - Ohiopyle Climbing\, Adventure and Co
  ncert June 20th Weekend
 DTSTART;VALUE=DATE:20260618
@@ -54,7 +54,7 @@ URL:https://pittecp.org/event-6719374
 END:VEVENT
 BEGIN:VEVENT
 UID:6727357@pittecp.org
-DTSTAMP:20260629T105920Z
+DTSTAMP:20260630T093507Z
 SUMMARY:Explorers Club of Pittsburgh - Free Yoga in Bakery Square - Every S
  aturday!
 DTSTART;TZID=America/New_York:20260620T103000
@@ -64,7 +64,7 @@ URL:https://pittecp.org/event-6727357
 END:VEVENT
 BEGIN:VEVENT
 UID:6645503@pittecp.org
-DTSTAMP:20260629T105921Z
+DTSTAMP:20260630T093508Z
 SUMMARY:Explorers Club of Pittsburgh - Ohiopyle Adventure Weekend
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260629
@@ -73,7 +73,7 @@ URL:https://pittecp.org/event-6645503
 END:VEVENT
 BEGIN:VEVENT
 UID:6727358@pittecp.org
-DTSTAMP:20260629T105921Z
+DTSTAMP:20260630T093508Z
 SUMMARY:Explorers Club of Pittsburgh - Free Yoga in Bakery Square - Every S
  aturday!
 DTSTART;TZID=America/New_York:20260627T103000
@@ -83,7 +83,7 @@ URL:https://pittecp.org/event-6727358
 END:VEVENT
 BEGIN:VEVENT
 UID:6742979@pittecp.org
-DTSTAMP:20260629T105923Z
+DTSTAMP:20260630T093508Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Invite: Pemi Loop (July 
  30-August 2)
 DTSTART;VALUE=DATE:20260730
@@ -93,7 +93,7 @@ URL:https://pittecp.org/event-6742979
 END:VEVENT
 BEGIN:VEVENT
 UID:6650942@pittecp.org
-DTSTAMP:20260629T105923Z
+DTSTAMP:20260630T093508Z
 SUMMARY:Explorers Club of Pittsburgh - Raystown Lake Camping/Adventure Week
  end
 DTSTART;VALUE=DATE:20260828
