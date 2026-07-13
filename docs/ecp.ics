@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:5764705@pittecp.org
-DTSTAMP:20260712T081644Z
+DTSTAMP:20260713T092550Z
 SUMMARY:Explorers Club of Pittsburgh - ECP General Meeting
 DTSTART;TZID=America/New_York:20261210T193000
 DTEND;TZID=America/New_York:20261210T213000
@@ -33,8 +33,17 @@ LOCATION:\, 7:30 PM  10:00 PM
 URL:https://pittecp.org/event-5764705
 END:VEVENT
 BEGIN:VEVENT
+UID:6689529@pittecp.org
+DTSTAMP:20260713T092550Z
+SUMMARY:Explorers Club of Pittsburgh - Erie Sailing and Camping Weekend
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260713
+LOCATION:Girard\, PA
+URL:https://pittecp.org/event-6689529
+END:VEVENT
+BEGIN:VEVENT
 UID:6757799@pittecp.org
-DTSTAMP:20260712T081645Z
+DTSTAMP:20260713T092551Z
 SUMMARY:Explorers Club of Pittsburgh - Rock Climbing + Biking Saturday 7/11
   - Logtown Quarry
 DTSTART;VALUE=DATE:20260711
@@ -43,18 +52,8 @@ LOCATION:Lisbon\, OH
 URL:https://pittecp.org/event-6757799
 END:VEVENT
 BEGIN:VEVENT
-UID:6742979@pittecp.org
-DTSTAMP:20260712T081646Z
-SUMMARY:Explorers Club of Pittsburgh - Backpacking Invite: Pemi Loop (July 
- 30-August 2)
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260803
-LOCATION:Pemigewasset Wilderness\, White Mountains\, NH
-URL:https://pittecp.org/event-6742979
-END:VEVENT
-BEGIN:VEVENT
 UID:6650942@pittecp.org
-DTSTAMP:20260712T081647Z
+DTSTAMP:20260713T092553Z
 SUMMARY:Explorers Club of Pittsburgh - Raystown Lake Camping/Adventure Week
  end
 DTSTART;VALUE=DATE:20260828
@@ -63,7 +62,7 @@ URL:https://pittecp.org/event-6650942
 END:VEVENT
 BEGIN:VEVENT
 UID:6757804@pittecp.org
-DTSTAMP:20260712T081647Z
+DTSTAMP:20260713T092553Z
 SUMMARY:Explorers Club of Pittsburgh - 10th Annual Musicians of Steel 5K Ru
  n/Walk
 DTSTART;VALUE=DATE:20261024
