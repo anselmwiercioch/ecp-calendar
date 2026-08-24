@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:6742979@pittecp.org
-DTSTAMP:20260823T063856Z
+DTSTAMP:20260824T065624Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Invite: Pemi Loop (July 
  30-August 2)
 DTSTART;VALUE=DATE:20260730
@@ -35,7 +35,7 @@ URL:https://pittecp.org/event-6742979
 END:VEVENT
 BEGIN:VEVENT
 UID:6775059@pittecp.org
-DTSTAMP:20260823T063856Z
+DTSTAMP:20260824T065625Z
 SUMMARY:Explorers Club of Pittsburgh - ECP Annual Picnic Sign-Up
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
@@ -44,7 +44,7 @@ URL:https://pittecp.org/event-6775059
 END:VEVENT
 BEGIN:VEVENT
 UID:5764705@pittecp.org
-DTSTAMP:20260823T063857Z
+DTSTAMP:20260824T065625Z
 SUMMARY:Explorers Club of Pittsburgh - ECP General Meeting
 DTSTART;TZID=America/New_York:20270114T193000
 DTEND;TZID=America/New_York:20270114T213000
@@ -52,22 +52,42 @@ LOCATION:\, 7:30 PM  10:00 PM
 URL:https://pittecp.org/event-5764705
 END:VEVENT
 BEGIN:VEVENT
-UID:6775050@pittecp.org
-DTSTAMP:20260823T063857Z
-SUMMARY:Explorers Club of Pittsburgh - ECP Annual Party Sign-Up
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260921
-LOCATION:New River Gorge\, WV
-URL:https://pittecp.org/event-6775050
+UID:6775037@pittecp.org
+DTSTAMP:20260824T065625Z
+SUMMARY:Explorers Club of Pittsburgh - New Member Hike &amp\; Brunch
+DTSTART;TZID=America/New_York:20260823T100000
+DTEND;TZID=America/New_York:20260823T120000
+LOCATION:\, 10:00 AM  2:00 PM
+URL:https://pittecp.org/event-6775037
+END:VEVENT
+BEGIN:VEVENT
+UID:6812909@pittecp.org
+DTSTAMP:20260824T065626Z
+SUMMARY:Explorers Club of Pittsburgh - Backpacking Trip: PA&#39\;s West Rim
+  Trail\, bordering Pine Creek Gorge (&quot\;PA&#39\;s Grand Canyon&quot\;)
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+LOCATION:PA West Rim Trail (PA Grand Canyon)
+URL:https://pittecp.org/event-6812909
 END:VEVENT
 BEGIN:VEVENT
 UID:6757804@pittecp.org
-DTSTAMP:20260823T063858Z
+DTSTAMP:20260824T065626Z
 SUMMARY:Explorers Club of Pittsburgh - 10th Annual Musicians of Steel 5K Ru
  n/Walk
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 LOCATION:70 River Front Drive Pittsburgh\, PA 15209 US
 URL:https://pittecp.org/event-6757804
+END:VEVENT
+BEGIN:VEVENT
+UID:6812911@pittecp.org
+DTSTAMP:20260824T065627Z
+SUMMARY:Explorers Club of Pittsburgh - Backpacking Invite: November 5-10 Th
+ ru-hike of Laurel Highlands Hiking Trail
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261111
+LOCATION:Laurel Highlands
+URL:https://pittecp.org/event-6812911
 END:VEVENT
 END:VCALENDAR
