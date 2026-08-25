@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:6742979@pittecp.org
-DTSTAMP:20260824T065624Z
+DTSTAMP:20260825T064433Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Invite: Pemi Loop (July 
  30-August 2)
 DTSTART;VALUE=DATE:20260730
@@ -35,7 +35,7 @@ URL:https://pittecp.org/event-6742979
 END:VEVENT
 BEGIN:VEVENT
 UID:6775059@pittecp.org
-DTSTAMP:20260824T065625Z
+DTSTAMP:20260825T064434Z
 SUMMARY:Explorers Club of Pittsburgh - ECP Annual Picnic Sign-Up
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
@@ -44,7 +44,7 @@ URL:https://pittecp.org/event-6775059
 END:VEVENT
 BEGIN:VEVENT
 UID:5764705@pittecp.org
-DTSTAMP:20260824T065625Z
+DTSTAMP:20260825T064434Z
 SUMMARY:Explorers Club of Pittsburgh - ECP General Meeting
 DTSTART;TZID=America/New_York:20270114T193000
 DTEND;TZID=America/New_York:20270114T213000
@@ -53,7 +53,7 @@ URL:https://pittecp.org/event-5764705
 END:VEVENT
 BEGIN:VEVENT
 UID:6775037@pittecp.org
-DTSTAMP:20260824T065625Z
+DTSTAMP:20260825T064435Z
 SUMMARY:Explorers Club of Pittsburgh - New Member Hike &amp\; Brunch
 DTSTART;TZID=America/New_York:20260823T100000
 DTEND;TZID=America/New_York:20260823T120000
@@ -62,7 +62,7 @@ URL:https://pittecp.org/event-6775037
 END:VEVENT
 BEGIN:VEVENT
 UID:6812909@pittecp.org
-DTSTAMP:20260824T065626Z
+DTSTAMP:20260825T064436Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Trip: PA&#39\;s West Rim
   Trail\, bordering Pine Creek Gorge (&quot\;PA&#39\;s Grand Canyon&quot\;)
 DTSTART;VALUE=DATE:20261016
@@ -72,7 +72,7 @@ URL:https://pittecp.org/event-6812909
 END:VEVENT
 BEGIN:VEVENT
 UID:6757804@pittecp.org
-DTSTAMP:20260824T065626Z
+DTSTAMP:20260825T064437Z
 SUMMARY:Explorers Club of Pittsburgh - 10th Annual Musicians of Steel 5K Ru
  n/Walk
 DTSTART;VALUE=DATE:20261024
@@ -82,7 +82,7 @@ URL:https://pittecp.org/event-6757804
 END:VEVENT
 BEGIN:VEVENT
 UID:6812911@pittecp.org
-DTSTAMP:20260824T065627Z
+DTSTAMP:20260825T064437Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Invite: November 5-10 Th
  ru-hike of Laurel Highlands Hiking Trail
 DTSTART;VALUE=DATE:20261105
