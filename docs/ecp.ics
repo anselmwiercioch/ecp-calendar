@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:6812909@pittecp.org
-DTSTAMP:20260901T111046Z
+DTSTAMP:20260902T104331Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Trip: PA&#39\;s West Rim
   Trail\, bordering Pine Creek Gorge (&quot\;PA&#39\;s Grand Canyon&quot\;)
 DTSTART;VALUE=DATE:20261016
@@ -35,7 +35,7 @@ URL:https://pittecp.org/event-6812909
 END:VEVENT
 BEGIN:VEVENT
 UID:6757804@pittecp.org
-DTSTAMP:20260901T111046Z
+DTSTAMP:20260902T104331Z
 SUMMARY:Explorers Club of Pittsburgh - 10th Annual Musicians of Steel 5K Ru
  n/Walk
 DTSTART;VALUE=DATE:20261024
@@ -45,7 +45,7 @@ URL:https://pittecp.org/event-6757804
 END:VEVENT
 BEGIN:VEVENT
 UID:6812911@pittecp.org
-DTSTAMP:20260901T111047Z
+DTSTAMP:20260902T104332Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Invite: November 5-10 Th
  ru-hike of Laurel Highlands Hiking Trail
 DTSTART;VALUE=DATE:20261105
