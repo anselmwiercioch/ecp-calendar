@@ -25,11 +25,21 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:5764705@pittecp.org
-DTSTAMP:20261018T102826Z
+DTSTAMP:20261019T121552Z
 SUMMARY:Explorers Club of Pittsburgh - ECP General Meeting
 DTSTART;TZID=America/New_York:20270311T193000
 DTEND;TZID=America/New_York:20270311T213000
 LOCATION:\, 7:30 PM  10:00 PM
 URL:https://pittecp.org/event-5764705
+END:VEVENT
+BEGIN:VEVENT
+UID:6812909@pittecp.org
+DTSTAMP:20261019T121552Z
+SUMMARY:Explorers Club of Pittsburgh - Backpacking Trip: PA&#39\;s West Rim
+  Trail\, bordering Pine Creek Gorge (&quot\;PA&#39\;s Grand Canyon&quot\;)
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+LOCATION:PA West Rim Trail (PA Grand Canyon)
+URL:https://pittecp.org/event-6812909
 END:VEVENT
 END:VCALENDAR
