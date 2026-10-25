@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:5764705@pittecp.org
-DTSTAMP:20261024T102155Z
+DTSTAMP:20261025T104913Z
 SUMMARY:Explorers Club of Pittsburgh - ECP General Meeting
 DTSTART;TZID=America/New_York:20270311T193000
 DTEND;TZID=America/New_York:20270311T213000
@@ -34,7 +34,7 @@ URL:https://pittecp.org/event-5764705
 END:VEVENT
 BEGIN:VEVENT
 UID:6812909@pittecp.org
-DTSTAMP:20261024T102155Z
+DTSTAMP:20261025T104913Z
 SUMMARY:Explorers Club of Pittsburgh - Backpacking Trip: PA&#39\;s West Rim
   Trail\, bordering Pine Creek Gorge (&quot\;PA&#39\;s Grand Canyon&quot\;)
 DTSTART;VALUE=DATE:20261016
@@ -43,8 +43,18 @@ LOCATION:PA West Rim Trail (PA Grand Canyon)
 URL:https://pittecp.org/event-6812909
 END:VEVENT
 BEGIN:VEVENT
+UID:6757804@pittecp.org
+DTSTAMP:20261025T104914Z
+SUMMARY:Explorers Club of Pittsburgh - 10th Annual Musicians of Steel 5K Ru
+ n/Walk
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+LOCATION:70 River Front Drive Pittsburgh\, PA 15209 US
+URL:https://pittecp.org/event-6757804
+END:VEVENT
+BEGIN:VEVENT
 UID:6885061@pittecp.org
-DTSTAMP:20261024T102156Z
+DTSTAMP:20261025T104914Z
 SUMMARY:Explorers Club of Pittsburgh - Reel Rock 20
 DTSTART;TZID=America/New_York:20270405T180000
 DTEND;TZID=America/New_York:20270405T200000
